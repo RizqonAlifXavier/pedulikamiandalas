@@ -13,9 +13,7 @@
           <!-- Brand Column -->
           <div class="footer__brand">
             <div class="footer__logo">
-              <div class="footer__logo-icon">
-                <i class="fas fa-heart-pulse"></i>
-              </div>
+              <img src="/logopeduli.png" alt="Logo PeduliKami Andalas" class="footer__logo-img" />
               <div>
                 <span class="footer__logo-name">PeduliKami Andalas</span>
                 <span class="footer__logo-tagline">Yayasan Kemanusiaan</span>
@@ -166,16 +164,12 @@
   margin-bottom: var(--space-5);
 }
 
-.footer__logo-icon {
-  width: 44px;
-  height: 44px;
-  background: linear-gradient(135deg, var(--color-primary), var(--color-accent));
-  border-radius: var(--radius-lg);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  font-size: var(--text-xl);
+.footer__logo-img {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  border-radius: 50%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 .footer__logo-name {

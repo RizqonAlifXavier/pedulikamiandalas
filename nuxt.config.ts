@@ -26,6 +26,20 @@ export default defineNuxtConfig({
         {
           rel: 'stylesheet',
           href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css'
+        },
+        {
+          rel: 'icon',
+          type: 'image/x-icon',
+          href: '/favicon.ico'
+        },
+        {
+          rel: 'icon',
+          type: 'image/png',
+          href: '/logopeduli.png'
+        },
+        {
+          rel: 'apple-touch-icon',
+          href: '/logopeduli.png'
         }
       ]
     }
